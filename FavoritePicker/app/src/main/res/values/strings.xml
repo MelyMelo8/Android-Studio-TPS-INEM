@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">FavoritePicker</string>
+    <string name="pokemon">Pokemon</string>
+    <string name="color">COLOR</string>
+    <string name="contact">CONTACT</string>
+    <string name="rouge">Rouge</string>
+    <string name="bleu">Bleu</string>
+    <string name="vert">Vert</string>
+    <string name="orange">Orange</string>
+    <string name="blanc">Blanc</string>
+    <string name="enregistrer">Enregistrer</string>
+    <string name="choisi_ta_couleur">Choisi ta couleur !!</string>
+    <string name="contact_favoris">Contact Favori :</string>
+    <string name="couleur_favorite">Couleur Favorite :</string>
+</resources>

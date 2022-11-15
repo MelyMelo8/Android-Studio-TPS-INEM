@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_pokemon"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/pokemon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="loadPokemonPage" />
+
+
+    <TextView
+        android:id="@+id/title_info_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="75dp"
+        android:text="@string/couleur_favorite"
+        app:layout_constraintTop_toBottomOf="@+id/button_pokemon"
+        />
+
+    <TextView
+        android:id="@+id/info_color"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/title_info_color"
+        />
+
+    <Button
+        android:id="@+id/button_color"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/color"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/info_color"
+        android:onClick="openColorPicker" />
+
+    <TextView
+        android:id="@+id/title_info_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="75dp"
+        android:text="@string/contact_favoris"
+        app:layout_constraintTop_toBottomOf="@+id/button_color"
+    />
+
+    <TextView
+        android:id="@+id/info_contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/title_info_contact"
+    />
+
+    <Button
+        android:id="@+id/button_contact"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/contact"
+        android:layout_marginTop="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info_contact"
+        android:onClick="getFavoriteContact" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
