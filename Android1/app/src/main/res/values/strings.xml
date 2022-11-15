@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android1</string>
+    <string name="convert"><b>Convert</b></string>
+    <string name="amount">Amount / Montant</string>
+    <string name="euro">Euro</string>
+    <string name="dollars">Dollars</string>
+    <string name="whatever">Livre sterling</string>
+    <string name="convert_submit">Convert</string>
+    <string name="result">RESULT</string>
+</resources>
